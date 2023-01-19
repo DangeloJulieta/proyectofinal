@@ -1,0 +1,153 @@
+.caja {
+    background-color: #E5E5E5;
+    color: #14213D;
+    border: 3px solid #14213D;
+    padding: 2rem;
+    min-width: auto;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 860px;
+    display: grid;
+}
+
+#gatos-contenedor {
+    max-width: 860px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3.125rem auto;
+    justify-content: space-between;
+    gap: 6.25rem 0;
+}
+
+.modal {
+    background-color: lightblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    text-align: center;
+}
+
+.adoption-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 2em;
+}
+
+.adoption-form input[type="text"],
+.adoption-form input[type="email"],
+.adoption-form input[type="tel"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.adoption-form input[type="submit"] {
+    width: 50%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.adoption-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-image {
+    border-radius: 8px;
+    max-width: 50%;
+}
+
+
+.introduccion-bg {
+    background-color:  #22223B;
+    padding: 5.625rem;
+}
+
+.introduccion {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 1.875rem;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduccion img {
+    height: auto;
+}
+
+.intro-texto {
+    color: #fff0e1;
+}
+
+.intro-texto h1 {
+    margin-bottom: 1.25rem;
+    font-size: 2.5rem;
+}
+
+.intro-texto p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    max-width: 36ch;
+}
+
+.button {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 1.25rem;
+    padding: 0.5rem 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-right: 1.25rem;
+    margin-top: 1.6rem;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color:  #22223B;
+}
+
+#contactos-contenedor {
+    max-width: 860px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 3.125rem auto;
+    justify-content: space-between;
+    gap: 6.25rem 0;
+    justify-items: flex-start;
+}
