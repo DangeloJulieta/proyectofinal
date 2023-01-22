@@ -133,7 +133,7 @@ adoptionForm.addEventListener("submit", event => {
   // Si todos los campos son válidos, mostrar mensaje de éxito y recargar la página
   alert("¡Gracias por adoptar a un gatito! En breve nos contactaremos para finalizar el proceso. Esperamos que tengan una buena vida juntos.");
 
-
+  window.location.reload();
 });
 
 // Añadir evento de clic al botón de cierre para ocultar la ventana modal y mostrar el mensaje de incentivo
