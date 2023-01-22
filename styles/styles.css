@@ -90,7 +90,7 @@
 
 
 .introduccion-bg {
-    background-color:  #22223B;
+    background-color: #22223B;
     padding: 5.625rem;
 }
 
@@ -139,7 +139,7 @@
 
 .button:hover {
     background-color: #ffffff;
-    color:  #22223B;
+    color: #22223B;
 }
 
 #contactos-contenedor {
@@ -151,3 +151,4 @@
     gap: 6.25rem 0;
     justify-items: flex-start;
 }
+
