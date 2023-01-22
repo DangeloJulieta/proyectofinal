@@ -45,7 +45,6 @@ function listaGatosMostrados (gatosAPIlista) {
     });
     pintarGatos(gatos);
     console.log(gatos)
-// dibujargatos();
 
     Toastify({
         text: "10 Gatos en adopción encontrados",
@@ -60,12 +59,4 @@ function listaGatosMostrados (gatosAPIlista) {
     }).showToast();
 }
 
-// cuando arranque pone un carte de espera que estamos encontrando gatos
 
-// dibujargatos();
-
-// cuando llamamos a una función asíncrona hay que esperarla usando el await, si uso await dentro de una función, la función que la llame también es asíncrona por lo que hay que definirla como async
-
-// const pintarProductos = async () => {
-// 	const contenedor = ……..
-// 	const productos = await homeController()
